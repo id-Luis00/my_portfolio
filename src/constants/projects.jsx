@@ -17,6 +17,6 @@ export const PROJECTS = [
       "Piattaforma web per la gestione di un database di utenti, con funzionalità di CRUD (Create, Read, Update, Delete) implementato con Node.js e Express.",
     imgURL: "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg",
     githubURL_FrontEnd: "",
-    githubURL_BackEnd: "https://github.com/id-Luis00/node-crud",
+    githubURL_BackEnd: "https://github.com/id-Luis00/node-crud-docker",
   },
 ];
