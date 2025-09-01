@@ -1,21 +1,22 @@
+import HomepageImage from "../assets/Music-Hall-Homepage.jpg";
+
 export const PROJECTS = [
   {
     id: 1,
     title: "Music-Hall",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ips amullam esse, officia maiores cum rerum recusandae unde animi id quo a Quasi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. blanditiis corporis, maxime voluptas est vitae quas consectetur. Iure labore, animi provident voluptatibus dolor autem? Perspiciatis numquam ab repudiandae",
-    imgURL:
-      "https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg",
+      "Piattaforma web per la ricerca di sale: prove, registrazione, live per artisti effettuato con React.js",
+    imgURL: HomepageImage,
     githubURL_FrontEnd: "https://github.com/id-Luis00/Music-Hall-Front",
     githubURL_BackEnd: "https://github.com/id-Luis00/Music-Hall-Back",
   },
   {
     id: 2,
-    title: "node-project",
+    title: "node-crud",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ullam esse, officia maiores cum rerum recusandae unde animi id quo a Quasi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. blanditiis corporis, maxime voluptas est vitae quas consectetur. Iure labore, animi provident voluptatibus dolor autem? Perspiciatis numquam ab repudiandae",
+      "Piattaforma web per la gestione di un database di utenti, con funzionalità di CRUD (Create, Read, Update, Delete) implementato con Node.js e Express.",
     imgURL: "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg",
-    githubURL_FrontEnd: "https://github.com/id-Luis00",
-    githubURL_BackEnd: "",
+    githubURL_FrontEnd: "",
+    githubURL_BackEnd: "https://github.com/id-Luis00/node-crud",
   },
 ];

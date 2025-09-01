@@ -51,8 +51,8 @@ const StyledWrapper = styled.div`
   }
 
   img {
-    max-width: 1000px;
-    max-height: 600px;
+    width: 1000px;
+    height: 600px;
     margin-inline: auto;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
@@ -63,7 +63,7 @@ const StyledWrapper = styled.div`
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    color: #10181b;
+    color: #ffffffff;
     font-weight: 500;
     transform: rotateX(-90deg);
     box-sizing: border-box;
@@ -80,13 +80,13 @@ const StyledWrapper = styled.div`
       left: 50%;
       translate: -50% -50%;
       border-radius: 15px;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.16);
       z-index: -1;
     }
   }
 
   .custom-item:hover img {
-    filter: blur(5px);
+    filter: blur(8px);
   }
 
   .custom-item:hover .custom-caption {
