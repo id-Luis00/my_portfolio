@@ -8,7 +8,7 @@ import ButtonCustom from "./ButtonCustom";
 import { useState } from "react";
 
 const HeroSection = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   return (
     <motion.div
