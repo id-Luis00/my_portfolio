@@ -80,7 +80,7 @@ const StyledWrapper = styled.div`
       left: 50%;
       translate: -50% -50%;
       border-radius: 15px;
-      background: rgba(0, 0, 0, 0.16);
+      background: rgba(0, 0, 0, 0.56);
       z-index: -1;
     }
   }

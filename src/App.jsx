@@ -73,6 +73,12 @@ function App() {
 
             {/* componente che richiama i miei contatti */}
             {/* <Contacts /> */}
+          </Container>
+          <Container
+            fluid
+            style={{ backgroundColor: "#070a0cff" }}
+            className=" text-light mt-5"
+          >
             <Footer />
           </Container>
         </>

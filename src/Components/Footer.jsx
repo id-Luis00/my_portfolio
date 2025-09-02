@@ -1,19 +1,18 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <Row>
+    <Container id="footer" className="footer">
+      <Row className="w-50 mx-auto">
         <Col>
           {/* tutti i miei contatti */}
-          <p>Email: myemail@example.com</p>
-          <p>Phone: +1234567890</p>
+          <p>Email: edinsonluis2014@gmail.com</p>
         </Col>
-        <Col className="text-center">
-          <p>© 2023 My Portfolio. All rights reserved.</p>
+        <Col>
+          <p>© 2025 My Portfolio. All rights reserved.</p>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 

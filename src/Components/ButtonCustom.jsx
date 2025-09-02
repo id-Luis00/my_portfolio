@@ -1,10 +1,9 @@
-import React from "react";
 import styled from "styled-components";
 
-const ButtonCustom = () => {
+const ButtonCustom = ({ isVisible, setIsVisible }) => {
   return (
     <StyledWrapper>
-      <button>
+      <button onClick={() => setIsVisible(!isVisible)}>
         <div className="btn2">
           <span className="spn2">contact</span>
         </div>

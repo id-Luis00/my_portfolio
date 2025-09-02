@@ -34,12 +34,12 @@ const AboutComponent = () => {
             className="m-0 h2 "
             style={{ textAlign: "justify", fontWeight: "350" }}
           >
-            Salve e benvenuti nel mio portfolio! io sono Luis e qui pubblicherò
-            tutti i miei lavori. Mi occupo di progettazione e sviluppo web, sia
-            Front-end che Back-end. Studio e sperimento costantemente per
-            arricchire il mio bagaglio di conoscenze e competenze. Spero ti/vi
-            possano piacere i miei lavori! Per qualsiasi dubbio o richiesta non
-            esitate a contattarmi!
+            Hi, I'm Luis! I'm a web developer passionate about building both
+            Front-end and Back-end applications using modern tools like React,
+            Node.js, and PostgreSQL. I love creating projects that not only work
+            well but also offer a great user experience. This portfolio
+            showcases some of my work—feel free to explore and get in touch if
+            you'd like to collaborate!
           </p>
         </Col>
       </Row>

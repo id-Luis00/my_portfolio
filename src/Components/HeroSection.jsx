@@ -5,8 +5,11 @@ import photo2 from "../assets/provaImage-removebg-preview.png";
 // eslint-disable-next-line no-unused-vars
 import * as motion from "motion/react-client";
 import ButtonCustom from "./ButtonCustom";
+import { useState } from "react";
 
 const HeroSection = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
   return (
     <motion.div
       initial={{ opacity: 0, filter: "blur(10px)" }}
@@ -28,9 +31,11 @@ const HeroSection = () => {
           </p>
           <Row>
             <Col>
-              <ButtonCustom />
+              <ButtonCustom isVisible={isVisible} setIsVisible={setIsVisible} />
             </Col>
-            <Col></Col>
+            <Col xs={12} className="bold">
+              {isVisible && <p>edinsonluis2014@gmail.com</p>}
+            </Col>
           </Row>
         </Col>
       </Row>
